@@ -79,3 +79,12 @@ KITTI-360
           ├──────────......
           └──────────2013_05_28_drive_0010_sync
 ```
+
+5. Run
+
+```
+source devel/setup.bash
+roslaunch kitti-360_2bag kitti-360_2bag.launch
+```
+
+Please change the varibales about PATH in launch file before running.
