@@ -1,6 +1,6 @@
 <launch>
     
-    <node name="kitti360_bag" pkg="kitti360_bag" type="kitti360_bag" output="screen"> 
+    <node name="kitti360_2bag" pkg="kitti360_2bag" type="kitti360_2bag" output="screen"> 
         <param name="dataset_folder" type="string" value="/home/cjd/dataset/KITTI_360/" />
         <param name="sequence_number" type="string" value="2013_05_28_drive_0002_sync" />
         <param name="to_bag" type="bool" value="true" />
