@@ -28,7 +28,7 @@ cd /kitti-360_2bag/src
 3. Clone and build this repository
 
 ```
-git clone https://github.com/ZikangYuan/kitti-360_2bag.git
+git clone https://github.com/ZikangYuan/kitti360_2bag.git
 cd ..
 catkin_make
 ```
@@ -84,7 +84,7 @@ KITTI-360
 
 ```
 source devel/setup.bash
-roslaunch kitti-360_2bag kitti-360_2bag.launch
+roslaunch kitti360_2bag kitti360_2bag.launch
 ```
 
 Please change the varibales about PATH in launch file before running.
