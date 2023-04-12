@@ -21,8 +21,8 @@
 2. Create a new ROS workspace
 
 ```
-mkdir /kitti-360_2bag/src
-cd /kitti-360_2bag/src
+mkdir /kitti360_2bag/src
+cd /kitti360_2bag/src
 ```
 
 3. Clone and build this repository
