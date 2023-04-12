@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(kitti-360_2bag)
+project(kitti360_2bag)
 
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
@@ -33,8 +33,8 @@ catkin_package(
   INCLUDE_DIRS include
 )
 
-add_executable(kitti-360_2bag src/kitti-360_2bag.cpp)
-target_link_libraries(kitti-360_2bag ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
+add_executable(kitti360_2bag src/kitti360_2bag.cpp)
+target_link_libraries(kitti360_2bag ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
 
 
