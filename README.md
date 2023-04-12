@@ -1,4 +1,4 @@
-# kitti-360_2bag
+# kitti360_2bag
 
 **This sourced code is for converting data of [KITTI-360 dataset](https://www.cvlibs.net/datasets/kitti-360/) to ROS bag format.**
 
