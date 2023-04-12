@@ -65,7 +65,7 @@ void load_ground_truth(std::string path, std::vector<int> &vIndex, std::vector<E
 
 int main(int argc, char** argv)
 {
-    ros::init(argc, argv, "kitti-360_2bag");
+    ros::init(argc, argv, "kitti360_2bag");
     ros::NodeHandle n("~");
     std::string dataset_folder, sequence_number, output_bag_file;
     n.getParam("dataset_folder", dataset_folder);
